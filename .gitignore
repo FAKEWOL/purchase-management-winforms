@@ -1,0 +1,44 @@
+## Visual Studio / C# .gitignore
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Oo]bj/
+[Bb]in/
+*.exe
+*.dll
+*.pdb
+
+# Visual Studio internal files
+.vs/
+.vscode/
+*.DotSettings
+*.DotSettings.user
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Windows specific
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+
+# C# / Windows Forms specific
+*.csproj.user
+*.pubxml.user
+*.publish.xml
